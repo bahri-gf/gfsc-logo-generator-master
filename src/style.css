@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Reef";
+  src: local("Reef"),
+    url("./fonts/Reef.otf") format("opentype");
+  font-weight: normal;
+}
+
+
 body {
   font-family: Roboto, 'Product Sans';
 }
@@ -10,12 +18,22 @@ body {
   margin: auto;
 }
 .full-logo-container {
+  line-height: 3;
+  display: flex;
+  align-items: center;
+  font-family: Reef, 'Reef';
   border: 2px solid #ccc;
   margin-bottom: 10px;
 }
 
 .full-logo-container.dark {
+  font-family: Reef, 'Reef';
   background-color: #292D33;
+}
+
+.full-logo-container.new {
+  display: flex;
+  align-items: center;
 }
 
 .scale-button > span {

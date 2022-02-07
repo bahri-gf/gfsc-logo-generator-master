@@ -16,7 +16,9 @@
   },
   "devDependencies": {
     "firebase-tools": "^7.12.1",
-    "react-scripts": "latest"
+    "postcss": "^8.4.5",
+    "react-scripts": "latest",
+    "tailwindcss": "^3.0.16"
   },
   "browserslist": {
     "production": [
